@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <title>< ns /></title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-expand">
+      <a class="navbar-brand" href="#">< ns /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Projects</a>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <header class="header">
+      <div id="header_content">
+        <h1 id="name">Nara Stupak</h1>
+        <h3 id="job">Software Engineer / Starter / World Traveler</h3>
+        <a href="#intro"><button class="button" type="button" name="button">PRESS START</button></a>
+      </div>
+    </header>
+
+    <section class="intro" id="intro">
+      <div class="container">
+        <h1 class="title">Who are you?</h1>
+        <div class="row justify-content-md-center">
+          <p class="col-lg-8">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consectetur nulla vitae erat hendrerit, sed cursus lorem blandit. Donec pretium placerat facilisis. Sed eu dapibus ex. Vivamus a massa ligula. Aliquam id iaculis nulla. Duis lectus libero, imperdiet et mollis at, hendrerit et diam. Cras elementum, turpis ac posuere finibus, ante orci placerat massa, et laoreet urna magna eu dui. Duis et faucibus eros.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio">
+      <div class="container">
+        <h1 class="title">Example projects</h1>
+
+          <div class="row">
+
+            <div class="col-lg-6 col-sm-12">
+              <div class="project">
+                <img src="https://tutorial.djangogirls.org/en/images/application.png" alt="">
+                <a href="#"><h2>Blog</h2></a>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-sm-12">
+              <div class="project">
+                <img src="https://simpleisbetterthancomplex.com/media/2015-11-23-small-open-source-django-projects-to-get-started/parsifal.png" alt="">
+                <a href="#"><h2>Other Project</h2></a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row">
+
+            <div class="col-lg-6 col-sm-12">
+              <div class="project">
+                <img src="https://i2.wp.com/fribly.com/wp-content/uploads/2015/12/Metis-Free-Bootstrap-Admin-Dashboard-Template-1.png?fit=1361%2C692&ssl=1" alt="">
+                <a href="#"><h2>Analytics</h2></a>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-sm-12">
+              <div class="project">
+                <img src="http://nectafy.wpengine.netdna-cdn.com/wp-content/uploads/2016/01/litmus-saas-website-design-720p.jpg" alt="">
+                <a href="#"><h2>Some other Project</h2></a>
+              </div>
+            </div>
+          </div>
+
+
+
+      </div>
+    </section>
+
+    <footer>
+    </footer>
+
+
+
+    <!--activate whichever button is clicked-->
+    <script>
+      $(".nav-item").on("click", function() {
+        $(".nav-item").removeClass("active");
+        $(this).addClass("active");
+      });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  </body>
+</html>
