@@ -32,12 +32,17 @@ nav.navbar {
 
 #name {
   font-family: 'Press Start 2P';
-  font-size: 3.8em;
+  font-size: 4em;
   padding:5px;
 }
 #job {
-  padding:5px;
+  padding:10px;
+  padding-bottom: 20px;
+}
 
+#about {
+  font-size: 1.3em;
+  text-align: justify;
 }
 
 .button {
